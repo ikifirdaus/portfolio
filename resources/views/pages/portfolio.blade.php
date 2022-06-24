@@ -36,14 +36,14 @@
                         data-aos-duration="1200" data-aos-delay="100">
                 </div>
                 <div class="col-lg-7 col-sm-12 flex-grow-1 ">
-                    <p class="date-works" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
-                        {{ $item->tanggal }}
-                    </p>
                     <h5 class="works-title" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                         {{ $item->title }}
                     </h5>
                     <p class="works-caption" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                         {{ $item->deskripsi_singkat }}
+                    </p>
+                    <p class="date-works" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                        {{ $item->tanggal }} <span>posted by admin</span> 
                     </p>
                 </div>
                 <hr class="mt-2 mb-4">

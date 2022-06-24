@@ -7,7 +7,11 @@ body {
   font-size: 20px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
-  color: #757474;
+  color: #3A3845;
+}
+
+.navbar-brand:hover {
+  color: #aeaeae;
 }
 
 .navbar-nav .nav-item {
@@ -18,6 +22,14 @@ body {
 .navbar-nav .nav-item:hover {
   background-color: #FD5D5D;
   font-size: 18px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #3A3845;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #F2F2F2;
 }
 
 .btnUp {
@@ -627,14 +639,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.section-works .flex-grow-1 .date-works {
-  color: #f2f2f29e;
+.section-works .flex-grow-1 .works-caption {
   font-size: 14px;
+}
+
+.section-works .flex-grow-1 .date-works {
+  margin-top: -10px;
+  color: #f2f2f29e;
+  font-size: 12px;
+}
+
+.section-works .flex-grow-1 .date-works span {
   font-style: italic;
 }
 
-.section-works .flex-grow-1 .works-caption {
-  font-size: 14px;
+.section-works hr {
+  color: #F2F2F2;
 }
 
 @media (max-width: 575.98px) {

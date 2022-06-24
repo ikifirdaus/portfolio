@@ -1,12 +1,12 @@
 {{-- NAVBAR --}}
-<nav class="navbar navbar-expand-lg navbar-light pt-4">
+<nav class="navbar navbar-expand-lg pt-4">
     <div class="container">
         <a href="{{ url('/') }}" class="navbar-brand" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             Rizki Firdaussahlan
         </a>
 
         <!-- HUMBURGER MENU -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
