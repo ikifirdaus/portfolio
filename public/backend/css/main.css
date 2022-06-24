@@ -1,0 +1,59 @@
+.sorting {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.dataTables_filter {
+  display: none;
+}
+
+.dataTables_length {
+  display: none;
+}
+
+.dataTables_info {
+  display: none;
+}
+
+.dataTables_paginate {
+  display: none;
+}
+
+.btn-homedashboard {
+  padding-top: 5px;
+  font-size: 14px;
+  background-color: #293B5F;
+  color: #ffffff;
+}
+
+.btn-homedashboard:hover {
+  background-color: #548CA8;
+  color: #ffffff;
+}
+
+.card-form {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-pen-to-square {
+  color: #74b6b5;
+}
+
+.fa-pen-to-square:hover {
+  color: #8cdedc;
+}
+
+.fa-trash-alt {
+  color: #FF6363;
+}
+
+.fa-trash-alt:hover {
+  color: #ffafaf;
+}
+
+.table {
+  color: #000000 !important;
+  font-size: 14px !important;
+}
+/*# sourceMappingURL=main.css.map */
